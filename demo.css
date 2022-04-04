@@ -1,0 +1,10 @@
+#outer-card{
+    display: inline-block;
+}
+
+.card-img {
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
