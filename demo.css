@@ -1,7 +1,4 @@
-body{
-    display: flex;
-    flex-direction: row;
-}
+
 
 
 .card-img {
@@ -31,3 +28,10 @@ border: 1px solid black;
     font-size: 14px;
     margin-bottom: 3px;
 }
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
