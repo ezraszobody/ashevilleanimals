@@ -1,5 +1,7 @@
 
-
+#outer-card{
+margin-top: 50px;
+}
 
 .card-img {
     height: 200px;
