@@ -1,10 +1,8 @@
 body{
     display: flex;
+    flex-direction: row;
 }
-#outer-card{
-    display: inline-block;
-    
-}
+
 
 .card-img {
     height: 200px;
@@ -25,4 +23,11 @@ body{
 .btn:hover{
 border: 1px solid black;
     background-color:rgb(77, 87, 59)
+}
+
+
+#type{
+    color: rgb(126, 126, 126);
+    font-size: 14px;
+    margin-bottom: 3px;
 }
