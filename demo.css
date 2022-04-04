@@ -1,5 +1,6 @@
 #outer-card{
     display: inline-block;
+    
 }
 
 .card-img {
@@ -7,4 +8,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+#date{
+    color: rgb(92, 92, 92);
 }
