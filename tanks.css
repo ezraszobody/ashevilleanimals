@@ -74,3 +74,10 @@ hr{
  
     margin: 10px auto;
 }
+
+
+.blockquote-footer{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 90px;
+}
