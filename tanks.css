@@ -75,3 +75,19 @@ hr{
     margin: 10px auto;
 }
 
+.country-icon{
+    display: block;
+   margin: 10px auto;
+}
+
+
+.websitelink{
+    font-size: 10px;
+    color: lightgrey;
+    display: block;
+    text-align: center;
+}
+
+.websitelink:hover{
+    color: grey;
+}
