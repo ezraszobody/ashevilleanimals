@@ -1,0 +1,23 @@
+#main-navbar{
+    
+    background-color: #47543c;
+    background-size: 1000px;
+}
+
+body{
+    background-color: #f9ffe5;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.dropdown-item{
+    color: tan;
+}
+
+#dropdown{
+    background-color: transparent;
+    border: 5px solid tan;
+}
+
+#nav-part{
+    color: tan;
+}
