@@ -1,7 +1,5 @@
 #main-navbar{
-    
-    background-color: #47543c;
-    background-size: 1000px;
+    background-color: green;
 }
 
 body{
@@ -32,4 +30,11 @@ body{
 #divider{
     border: 1px solid tan;
     height: 4px;
+}
+
+.top-background{
+    height:300px;
+    width: 100%;
+    background-color: green;
+    border-bottom: 5px solid tan;
 }
