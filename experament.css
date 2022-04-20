@@ -1,5 +1,6 @@
 #main-navbar{
-    background-color: green;
+    background-color: rgb(45, 75, 45);
+    
 }
 
 body{
@@ -8,33 +9,39 @@ body{
 }
 
 .dropdown-item{
-    color: tan;
+    color: rgb(138, 117, 89);
 }
 
 .dropdown-item:hover{
-    background-color: #f9ffe5;
-    color: rgb(94, 66, 66);
+    background-color: rgb(45, 75, 45);
+    color: tan;
 }
 
 #dropdown{
-    background-color: transparent;
-    border: 5px solid tan;
+    background-color: rgb(45, 75, 45);
+    border: 5px solid rgb(138, 117, 89);
 }
 
 #nav-part{
-    color: tan;
+    color: rgb(138, 117, 89);
     margin-left: 10px;
 }
 
+#nav-part:hover{
+    color: tan;
+}
+
+
 
 #divider{
-    border: 1px solid tan;
+    border: 1px solid rgb(138, 117, 89);
     height: 4px;
 }
 
-.top-background{
-    height:300px;
-    width: 100%;
-    background-color: green;
-    border-bottom: 5px solid tan;
+
+h1 #top-title{
+    color: tan;
+    
 }
+
+
