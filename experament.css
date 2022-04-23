@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(228, 250, 232);
+}
+
+
 #main-navbar{
     background-color: #0c305c;
     border-bottom: 5px solid rgb(0, 152, 0);
@@ -59,6 +64,10 @@
     background-repeat: no-repeat;
     padding-bottom: 50px;
     padding-top: 50px;
+}
+
+.animal-title{
+    margin-top: 130px;
 }
 
 @media(max-width: 1200px){
