@@ -1,47 +1,75 @@
 #main-navbar{
-    background-color: rgb(45, 75, 45);
-    box-shadow: 0px 4px 5px grey;
-}
-
-body{
-    background-color: #f9ffe5;
-    font-family: 'Abril Fatface', cursive;
-}
-
-.dropdown-item{
-    color: rgb(138, 117, 89);
-}
-
-.dropdown-item:hover{
-    background-color: rgb(45, 75, 45);
-    color: tan;
-}
-
-#dropdown{
-    background-color: rgb(45, 75, 45);
-    border: 5px solid rgb(138, 117, 89);
+    background-color: #0c305c;
+    border-bottom: 5px solid rgb(0, 152, 0);
 }
 
 #nav-part{
-    color: rgb(138, 117, 89);
-    margin-left: 10px;
+    color: white;
+    font-weight: bold;
 }
 
-#nav-part:hover{
-    color: tan;
+.dropdown-item:hover{
+    color: white;
+    background-color: #0c305c;
 }
 
-
-
-#divider{
-    border: 1px solid rgb(138, 117, 89);
-    height: 4px;
+.main-title{
+    margin: 30px 0;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+    color: white;
 }
 
-
-h1 #top-title{
-    color: tan;
-    
+.main-paragraph{
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
 }
 
+#title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #0c305c;
+}
+
+.nav-item svg{
+    width: 20px;
+    fill: currentColor;
+}
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.navbar-toggler svg {
+    width: 20px;
+    fill: currentColor;
+}
+
+.squirrelimg{
+    margin-top: 10px;
+}
+
+#main-section{
+    background-image: url(images/leafbackground.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+@media(max-width: 1200px){
+    .squirrelimg{
+        width: 100%;
+    }
+}
+
+@media(max-width: 650px){
+    .main-paragraph{
+        width: 470px;
+    }
+}
 
