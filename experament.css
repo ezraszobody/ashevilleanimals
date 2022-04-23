@@ -69,9 +69,7 @@ body{
     max-width: 100%;
 }
 
-.animal-title{
-    margin-top: 131px;
-}
+
 
 @media(max-width: 1200px){
     .squirrelimg{
@@ -82,26 +80,5 @@ body{
 @media(max-width: 650px){
     .main-paragraph{
         width: 470px;
-    }
-}
-
-@media(max-width: 850px){
-    .animal-title{
-        margin-top: 50px;
-    }
-}
-
-
-@media(min-width: 1500px){
-    .animal-title{
-        margin-top: 190px;
-        font-size: 80px;
-    }
-}
-
-
-@media(max-width: 575.5px){
-    .animal-title{
-        display: none;
     }
 }
