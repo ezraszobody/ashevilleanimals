@@ -30,6 +30,7 @@ body{
     margin: auto;
     margin-top: 50px;
     color: white;
+    max-width: 100%;
 }
 
 #title{
