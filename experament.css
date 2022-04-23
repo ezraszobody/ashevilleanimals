@@ -6,6 +6,7 @@ body{
 #main-navbar{
     background-color: #0c305c;
     border-bottom: 5px solid rgb(0, 152, 0);
+    box-shadow: 0px 5px 10px;
 }
 
 #nav-part{
@@ -65,6 +66,7 @@ body{
     background-repeat: no-repeat;
     padding-bottom: 50px;
     padding-top: 50px;
+    max-width: 100%;
 }
 
 .animal-title{
