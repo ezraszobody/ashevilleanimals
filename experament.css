@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(228, 250, 232);
+    background-color: rgb(224, 254, 230);
 }
 
 
@@ -67,7 +67,7 @@ body{
 }
 
 .animal-title{
-    margin-top: 130px;
+    margin-top: 131px;
 }
 
 @media(max-width: 1200px){
