@@ -82,3 +82,10 @@ body{
         width: 470px;
     }
 }
+
+
+@media(max-width: 575.5px){
+    .animal-description{
+        display: none;
+    }
+}
