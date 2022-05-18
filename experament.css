@@ -18,7 +18,7 @@ body{
 }
 
 #nav-part:hover{
-    color: rgb(194, 232, 194);
+    color: rgb(194, 233, 194);
 }
 
 #nav-part1{
@@ -29,13 +29,13 @@ body{
 
 .dropdown-item{
     background-color: #164a89;
-    color: rgb(194, 232, 194);
+    color: rgb(194, 233, 194);
 }
 
 .dropdown-item:hover{
     color: white;
     border-left: 5px solid white;
-    background-color: #164a89;
+    background-color: #144683;
 }
 
 .main-title{
