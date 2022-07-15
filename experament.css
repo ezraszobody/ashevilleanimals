@@ -37,7 +37,8 @@ svg{
     height: 215px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px grey;
-   
+   margin-top: 50px;
+
 }
 
 .build{
@@ -58,7 +59,8 @@ svg{
 .allcards{
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    flex-wrap: wrap;
+    
 }
 
 .card h5{
