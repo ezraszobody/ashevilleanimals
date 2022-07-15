@@ -1,110 +1,73 @@
-body{
-    background-color: rgb(224, 254, 230);
+.mynav{
+    background-color: #222222;
+}
+*{
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+.item{
+    color: #da6315;
+}
+.item:hover{
+    color: #df8b54;
 }
 
-
-#main-navbar{
-    background-color: #0c305c;
-    border-bottom: 5px solid rgb(0, 152, 0);
-    box-shadow: 0px 5px 10px;
+.titleitem{
+    color: #da6315;
 }
 
-
-
-#nav-part{
-    color: white;
-    font-weight: bold;
-    transition: all 300ms;
+.titleitem:hover{
+    color: #da6315;
 }
-
-#nav-part:hover{
-    color: rgb(194, 233, 194);
-}
-
-#nav-part1{
-    color: white;
-    font-weight: bold;
-    
-}
-
-.dropdown-item{
-    background-color: #164a89;
-    color: rgb(194, 233, 194);
-}
-
-.dropdown-item:hover{
-    color: white;
-    border-left: 5px solid white;
-    background-color: #0c305c;
-}
-
-.main-title{
-    margin: 30px 0;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 50px;
-    color: white;
-}
-
-.main-paragraph{
-    width: 600px;
-    margin: auto;
-    margin-top: 50px;
-    color: white;
-    max-width: 100%;
-}
-
-#title{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-weight: bold;
-    color: #0c305c;
-}
-
-.nav-item svg{
-    width: 20px;
+svg{
+  
     fill: currentColor;
 }
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(218, 99, 21, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler {
+    border-color: rgb(218, 99, 21);
+  } 
 
-.navbar-light .navbar-toggler {
-    color: white;
-    border-color: white;
+.card{
+    border: 0px solid rgba(0, 0, 0, .2);
+    width: 200px;
+    height: 215px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+   
 }
 
-.navbar-toggler svg {
-    width: 20px;
-    fill: currentColor;
+.build{
+    text-decoration: none;
+    background-color: #da6315;
+    color: #222222;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: .2s;
 }
 
-.squirrelimg{
-    margin-top: 10px;
+.build:hover{
+    background-color: #df8b54;
+    color: black;
 }
 
-#main-section{
-    background-image: url(images/leafbackground.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding-bottom: 50px;
-    padding-top: 50px;
-    max-width: 100%;
+.allcards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
 }
 
-
-
-@media(max-width: 1200px){
-    .squirrelimg{
-        width: 100%;
-    }
+.card h5{
+    padding-left: 10px;
 }
 
-@media(max-width: 650px){
-    .main-paragraph{
-        width: 470px;
-    }
+.card h6{
+    padding-left: 10px;
 }
 
 
-@media(max-width: 575.5px){
-    .animal-description{
-        display: none;
-    }
-}
+  
