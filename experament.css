@@ -19,22 +19,28 @@ svg{
   
     fill: currentColor;
 }
+.card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 .custom-toggler .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(218, 99, 21, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(192, 192, 192, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   }
   
   .custom-toggler.navbar-toggler {
-    border-color: rgb(218, 99, 21);
+    border-color: rgb(192, 192, 192);
   } 
 
 .card{
     border: 0px solid rgba(0, 0, 0, .2);
     width: 200px;
-    height: 215px;
+    height: 214px;
     border-radius: 10px;
     box-shadow: 5px 5px 10px grey;
    margin-top: 50px;
-
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .build{
