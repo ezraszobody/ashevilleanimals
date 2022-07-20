@@ -45,7 +45,7 @@ justify-content: space-between;
 
 .build{
     text-decoration: none;
-    background-color: #da6315;
+    background-color: #0d6dfd;
     color: #222222;
     text-align: center;
     border-bottom-left-radius: 10px;
@@ -54,7 +54,7 @@ justify-content: space-between;
 }
 
 .build:hover{
-    background-color: #df8b54;
+    background-color: #4690ff;
     color: black;
 }
 
@@ -74,4 +74,16 @@ justify-content: space-between;
 }
 
 
-  
+.purchase{
+    text-decoration: none;
+    color: #0d6dfd;
+    border: 2px solid #0d6dfd;
+    border-radius: 5px;
+    padding: 2px;
+    transition: .2s;
+}
+
+.purchase:hover{
+    color: white;
+    background-color: #0d6dfd;
+}
